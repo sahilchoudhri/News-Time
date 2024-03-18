@@ -42,7 +42,7 @@ function App() {
         </ul>
       <div className="flex justify-center items-center w-11/12 max-w-[1180px] mx-auto" >
 
-        {isLoading ? <div className="animate-spin rounded-full border-4 border-white border-l-blue-500 w-12 h-12 mt-[10rem] " /> : <Cards data={data} />}
+        {isLoading ? <div className="animate-spin rounded-full border-[6px] border-blue-900 border-l-blue-500 w-[2.5rem] h-[2.5rem] mt-[10rem] " /> : <Cards data={data} />}
 
       </div>
     
