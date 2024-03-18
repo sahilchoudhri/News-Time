@@ -18,7 +18,7 @@ function Cards(props) {
                 data.map((item, index) => {
                     if (!item) {
                         console.error(`Cards received null item at index ${index}. This is a bug. Ignoring it.`)
-                        return <div className='text-slate-200 mt-[5rem] text-lg ' >API is Paid hence can`t display news on live site.</div>
+                        return <div className='text-slate-200 mt-[5rem] text-lg ' >API is Paid hence can`t display news on live site</div>
                     }
                     return (
                         <Card key={index} item={item} />
